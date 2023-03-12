@@ -1,0 +1,97 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+background-color: cadetblue;
+/* font-family: 'Encode Sans', sans-serif; */
+font-family: 'Labrada', serif;
+
+}
+.nav {
+  height: 10vh;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.nav__child {
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Marck Script', cursive;
+
+}
+
+.nav_p:hover{
+  color: orange;
+}
+
+
+table{
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  height: 50vh;
+}
+table tr td{
+  height: 20px;
+  margin-top: 20px
+}
+
+table th{
+  color: brown;
+  font-size: 20px;
+}
+
+.tablehead{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tablehead button{
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+.action_buttons button{
+  margin-left: 2rem;
+  width: 20%;
+}
+h1{
+  padding: 3rem;
+}
+.editpart{
+padding: 10rem;  height: 80vh;
+  background-color: antiquewhite;
+  margin: 5rem auto;
+  width: 80%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+.editpart input{
+  margin: 10px 10px;
+  width: 50%;
+  height: 10vh;
+}
+
+.editpart_buttons{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  position: absolute;
+  bottom: 5vh;
+  left: 35%;
+}
+.editpart_buttons button{
+  width: 20%;
+}
